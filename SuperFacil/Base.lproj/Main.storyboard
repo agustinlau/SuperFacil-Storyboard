@@ -50,21 +50,14 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ErG-0v-9Ys">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rxo-Ho-xb5">
-                                                <rect key="frame" x="21" y="76" width="103" height="103"/>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rxo-Ho-xb5">
+                                                <rect key="frame" x="20" y="76" width="103" height="103"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="103" id="70A-LK-S39"/>
                                                     <constraint firstAttribute="width" constant="103" id="FpR-2d-Joo"/>
                                                 </constraints>
                                                 <state key="normal" title="Button" image="produce"/>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Productos Frescos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5j-o1-ljc">
-                                                <rect key="frame" x="8" y="187" width="129" height="21"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Categorias" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57S-hf-Kln">
                                                 <rect key="frame" x="106" y="8" width="162" height="52"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -72,11 +65,52 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Productos Frescos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5j-o1-ljc">
+                                                <rect key="frame" x="8" y="181" width="129" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5S-HT-QOu" userLabel="Meat Seafood Button">
+                                                <rect key="frame" x="143" y="76" width="103" height="103"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="103" id="Lgh-By-XgL"/>
+                                                    <constraint firstAttribute="width" constant="103" id="pnL-dk-WVf"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="meats-and-seafood"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Carnes y Mariscos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ltz-tY-SGj">
+                                                <rect key="frame" x="130" y="181" width="129" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="11"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AkF-gc-Van" userLabel="Dairy Button">
+                                                <rect key="frame" x="266" y="76" width="103" height="103"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="103" id="36p-nu-xfe"/>
+                                                    <constraint firstAttribute="width" constant="103" id="z3U-sH-5YG"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="dairy"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lacteos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GSe-1K-Wma">
+                                                <rect key="frame" x="246" y="180" width="129" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
+                                            <constraint firstItem="AkF-gc-Van" firstAttribute="top" secondItem="ErG-0v-9Ys" secondAttribute="top" constant="76" id="3mN-t0-c07"/>
+                                            <constraint firstItem="B5S-HT-QOu" firstAttribute="top" secondItem="ErG-0v-9Ys" secondAttribute="top" constant="76" id="7pB-pR-PTN"/>
                                             <constraint firstAttribute="height" constant="1200" id="GMu-hk-yNZ"/>
-                                            <constraint firstItem="Rxo-Ho-xb5" firstAttribute="top" secondItem="ErG-0v-9Ys" secondAttribute="top" constant="30" id="MJb-CF-DQe"/>
+                                            <constraint firstItem="Rxo-Ho-xb5" firstAttribute="top" secondItem="ErG-0v-9Ys" secondAttribute="top" constant="76" id="MJb-CF-DQe"/>
+                                            <constraint firstItem="AkF-gc-Van" firstAttribute="leading" secondItem="B5S-HT-QOu" secondAttribute="trailing" constant="20" id="WhQ-WI-lDc"/>
+                                            <constraint firstItem="B5S-HT-QOu" firstAttribute="leading" secondItem="Rxo-Ho-xb5" secondAttribute="trailing" constant="20" id="rze-hv-xQz"/>
                                             <constraint firstItem="Rxo-Ho-xb5" firstAttribute="leading" secondItem="ErG-0v-9Ys" secondAttribute="leading" constant="20" id="sSh-QY-lmc"/>
                                         </constraints>
                                     </view>
@@ -105,6 +139,8 @@
                     <tabBarItem key="tabBarItem" id="acW-dT-cKf"/>
                     <size key="freeformSize" width="375" height="1200"/>
                     <connections>
+                        <outlet property="dairyButton" destination="AkF-gc-Van" id="I5h-Nf-y2J"/>
+                        <outlet property="meatSeafoodButton" destination="B5S-HT-QOu" id="qMB-BG-ZiT"/>
                         <outlet property="produceButton" destination="Rxo-Ho-xb5" id="cPH-x8-f4V"/>
                     </connections>
                 </viewController>
@@ -203,6 +239,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="dairy" width="4000" height="3000"/>
+        <image name="meats-and-seafood" width="4283" height="3212"/>
         <image name="produce" width="1024" height="1024"/>
     </resources>
 </document>
