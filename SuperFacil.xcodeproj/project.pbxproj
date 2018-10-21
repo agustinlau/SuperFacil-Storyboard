@@ -15,6 +15,7 @@
 		A37B594E217BE2B80026DB24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37B594C217BE2B80026DB24 /* LaunchScreen.storyboard */; };
 		A37B5959217BE2B80026DB24 /* SuperFacilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37B5958217BE2B80026DB24 /* SuperFacilTests.swift */; };
 		A37B5964217BE2B80026DB24 /* SuperFacilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37B5963217BE2B80026DB24 /* SuperFacilUITests.swift */; };
+		A39BCA71217D3B0800F0D03C /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39BCA70217D3B0800F0D03C /* ProductListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A37B595F217BE2B80026DB24 /* SuperFacilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperFacilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A37B5963217BE2B80026DB24 /* SuperFacilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFacilUITests.swift; sourceTree = "<group>"; };
 		A37B5965217BE2B80026DB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A39BCA70217D3B0800F0D03C /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A37B5943217BE2B80026DB24 /* FirstViewController.swift */,
 				A37B5945217BE2B80026DB24 /* SecondViewController.swift */,
 				A37B5947217BE2B80026DB24 /* Main.storyboard */,
+				A39BCA70217D3B0800F0D03C /* ProductListViewController.swift */,
 				A37B594A217BE2B80026DB24 /* Assets.xcassets */,
 				A37B594C217BE2B80026DB24 /* LaunchScreen.storyboard */,
 				A37B594F217BE2B80026DB24 /* Info.plist */,
@@ -264,6 +267,7 @@
 			files = (
 				A37B5946217BE2B80026DB24 /* SecondViewController.swift in Sources */,
 				A37B5942217BE2B80026DB24 /* AppDelegate.swift in Sources */,
+				A39BCA71217D3B0800F0D03C /* ProductListViewController.swift in Sources */,
 				A37B5944217BE2B80026DB24 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
