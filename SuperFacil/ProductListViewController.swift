@@ -10,7 +10,8 @@ import UIKit
 
 class ProductListViewController: UIViewController {
     
-    var products = ["Banana", "Apples", "Vegetables"]
+    var category: String = ""
+    var products = ["Banana", "Apples", "Vegetables", "Strawberries", "Pineapple", "Watermelon", "Pears"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,17 +23,38 @@ class ProductListViewController: UIViewController {
 //        lblNew.textColor = UIColor.black
 //        lblNew.translatesAutoresizingMaskIntoConstraints = false
 //        view.addSubview(lblNew)
-        var yDist: CGFloat = 100
+        var xImage: CGFloat = 30
+        var yImage: CGFloat = 100
+        var image: UIImage? = nil
+        
+        var xLabel: CGFloat = 30
+        var yLabel: CGFloat = 210
+        var count: Int = 0
         for product in products {
-            let button = UIButton(frame: CGRect(x: 100, y: yDist, width: 250, height: 30))
-            yDist = yDist + 50
+            let button = UIButton(frame: CGRect(x: xImage, y: yImage, width: 103, height: 103))
+            let label = UILabel(frame: CGRect(x: xLabel, y: yLabel, width: 103, height: 20))
+            if count < 2 {
+                xImage = xImage + 130
+                xLabel = xLabel + 130
+                count = count + 1
+            } else {
+                xImage = 30
+                xLabel = 30
+                yImage = yImage + 140
+                yLabel = yLabel + 140
+                count = 0
+            }
+            image = UIImage(named: "produce")
+            button.setImage(image, for: .normal)
             button.layer.cornerRadius = 10  // get some fancy pantsy rounding
-            button.backgroundColor = UIColor.black
-            button.setTitle("\(product)", for: UIControlState.normal) // We are going to use the item name as the Button Title here.
-            button.titleLabel?.text = "\(product)"
+//            button.backgroundColor = UIColor.black
+//            button.setTitle("\(product)", for: UIControlState.normal) // We are going to use the item name as the Button Title here.
+//            button.titleLabel?.text = "\(product)"
+            label.text = "\(product)"
             button.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
             
             self.view.addSubview(button)
+            self.view.addSubview(label)
         }
         
     }
