@@ -17,6 +17,8 @@ class ProductListViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        print(category)
+        
 //        let lblNew = UILabel.init()
 //        lblNew.frame = CGRect(x: 50, y: 150, width: 100, height: 21)
 //        lblNew.text = "Test"

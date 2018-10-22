@@ -23,7 +23,7 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         // Give the all buttons an action
-        produceButton.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
+//        produceButton.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
         meatSeafoodButton.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
         dairyButton.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
         
@@ -46,6 +46,13 @@ class FirstViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.destination is ProductListViewController {
+            let vc = segue.destination as? ProductListViewController
+            vc?.category = segue.identifier!
+        }
     }
 
 
