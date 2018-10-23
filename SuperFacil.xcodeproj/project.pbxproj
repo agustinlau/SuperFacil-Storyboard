@@ -16,6 +16,8 @@
 		A37B5959217BE2B80026DB24 /* SuperFacilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37B5958217BE2B80026DB24 /* SuperFacilTests.swift */; };
 		A37B5964217BE2B80026DB24 /* SuperFacilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37B5963217BE2B80026DB24 /* SuperFacilUITests.swift */; };
 		A39BCA71217D3B0800F0D03C /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39BCA70217D3B0800F0D03C /* ProductListViewController.swift */; };
+		A39BCA74217D871000F0D03C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39BCA72217D871000F0D03C /* TestViewController.swift */; };
+		A39BCA75217D871000F0D03C /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A39BCA73217D871000F0D03C /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A37B5963217BE2B80026DB24 /* SuperFacilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFacilUITests.swift; sourceTree = "<group>"; };
 		A37B5965217BE2B80026DB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A39BCA70217D3B0800F0D03C /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		A39BCA72217D871000F0D03C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		A39BCA73217D871000F0D03C /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 			children = (
 				A37B5941217BE2B80026DB24 /* AppDelegate.swift */,
 				A37B5943217BE2B80026DB24 /* FirstViewController.swift */,
+				A39BCA72217D871000F0D03C /* TestViewController.swift */,
+				A39BCA73217D871000F0D03C /* TestViewController.xib */,
 				A37B5945217BE2B80026DB24 /* SecondViewController.swift */,
 				A37B5947217BE2B80026DB24 /* Main.storyboard */,
 				A39BCA70217D3B0800F0D03C /* ProductListViewController.swift */,
@@ -240,6 +246,7 @@
 			files = (
 				A37B594E217BE2B80026DB24 /* LaunchScreen.storyboard in Resources */,
 				A37B594B217BE2B80026DB24 /* Assets.xcassets in Resources */,
+				A39BCA75217D871000F0D03C /* TestViewController.xib in Resources */,
 				A37B5949217BE2B80026DB24 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A39BCA74217D871000F0D03C /* TestViewController.swift in Sources */,
 				A37B5946217BE2B80026DB24 /* SecondViewController.swift in Sources */,
 				A37B5942217BE2B80026DB24 /* AppDelegate.swift in Sources */,
 				A39BCA71217D3B0800F0D03C /* ProductListViewController.swift in Sources */,

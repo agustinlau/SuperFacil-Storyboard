@@ -9,11 +9,17 @@
 import UIKit
 
 class TestViewController: UIViewController {
+    
+    var category: String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print("here")
+        let label: UILabel = UILabel(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
+        label.text = "hello"
+        self.view.addSubview(label)
     }
 
 

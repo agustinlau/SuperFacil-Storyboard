@@ -41,6 +41,10 @@ class FirstViewController: UIViewController {
     
     @objc func buttonAction(sender: UIButton!) {
         print("Button tapped")
+        let view = TestViewController()
+        view.category = "test"
+        self.navigationController?.pushViewController(view, animated: true)
+        
     }
 
     override func didReceiveMemoryWarning() {
